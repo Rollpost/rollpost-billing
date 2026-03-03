@@ -1,5 +1,19 @@
-{
+﻿{
+  "name": "rollpost-billing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo \"(tests not set up yet)\""
+  },
   "dependencies": {
-    "@rollpost/contract": "^0.1.0"
+    "@rollpost/contract": "0.1.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.6.0"
   }
 }
